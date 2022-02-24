@@ -7,7 +7,7 @@ public class Colortext extends Decorator {
     }
     public String apply()
     {
-        return com.apply() + addColortext();
+        return co.apply() + addColortext();
     }
     private String addColortext()
     {

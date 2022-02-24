@@ -1,12 +1,12 @@
 package com.injava.Decoratorpattern;
 
 public abstract class Decorator implements component {
-    protected component com;
+    protected component co;
     public Decorator(component c)
     {
-        this.com=c;
+        this.co=c;
     }
     public String apply(){
-        return com.apply();
+        return co.apply();
     }
 }
