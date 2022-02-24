@@ -1,13 +1,13 @@
 package com.injava.Decoratorpattern;
 
 public class Bgcolor extends Decorator {
-    public Bgcolor(component com)
+    public Bgcolor(component comp)
     {
-        super(com);
+        super(comp);
     }
     public String apply()
     {
-        return com.apply() + addBGcolor();
+        return co.apply() + addBGcolor();
     }
     private String addBGcolor()
     {

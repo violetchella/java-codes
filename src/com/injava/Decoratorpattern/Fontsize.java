@@ -7,7 +7,7 @@ public class Fontsize extends Decorator {
     }
     public String apply()
     {
-        return com.apply() + addFontsize();
+        return co.apply() + addFontsize();
     }
     private String addFontsize()
     {
