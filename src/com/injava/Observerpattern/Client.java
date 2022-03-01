@@ -6,5 +6,6 @@ public class Client {
         channel.register(new CObserverA());
         channel.register(new CObserverB());
         channel.setState("New pattern");
+        System.out.println(channel.getState());
     }
     }
